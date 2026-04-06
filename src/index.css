@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Dream Avenue';
+  src: url('/Dream Avenue .otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-dream: "Dream Avenue", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  
+  --color-primary-pink: #E6007A;
+  --color-brand-bg: #1A0404;
+  --color-brand-dark: #1A0404;
+  --color-brand-purple: #FDF2F7;
+  --color-brand-white: #FFFFFF;
+  --color-brand-gold: #D48C45;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    /* Gradiente radial sutil en tonos bordó oscuro */
+    background: radial-gradient(circle at center, #3D0B0B 0%, #1A0404 100%);
+    color: var(--color-brand-purple);
+    font-family: var(--font-inter);
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+}
