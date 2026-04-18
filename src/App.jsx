@@ -40,9 +40,9 @@ const App = () => {
           
           <div className="p-2 md:p-4 rounded-3xl relative overflow-hidden min-h-[600px]">
             <iframe
-              src="https://go.tierradorada.ar/widget/form/eI2EB6RxO8iSV1ZdQnjU"
+              src="https://api.funnelup.io/widget/form/dfeahNoL8LvReY6UxCii"
               style={{ width: '100%', height: '100%', border: 'none', borderRadius: '1.5rem', minHeight: '600px', backgroundColor: 'transparent' }}
-              id="inline-eI2EB6RxO8iSV1ZdQnjU"
+              id="inline-dfeahNoL8LvReY6UxCii"
               data-layout="{'id':'INLINE'}"
               data-trigger-type="alwaysShow"
               data-trigger-value=""
@@ -53,9 +53,9 @@ const App = () => {
               data-form-name="Formulario Curso Gratuito"
               data-scrollbar="yes"
               data-contact-id=""
-              title="Formulario de Inscripción Tierra Dorada"
+              title="Formulario de Inscripción"
             ></iframe>
-            <script src="https://go.tierradorada.ar/js/form_embed.js"></script>
+            <script src="https://api.funnelup.io/js/form_embed.js"></script>
           </div>
         </motion.div>
         
