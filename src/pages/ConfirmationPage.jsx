@@ -4,7 +4,7 @@ import { Sparkles, MessageCircleHeart } from 'lucide-react'
 
 const ConfirmationPage = () => {
   return (
-    <main className="flex items-center justify-center min-h-[100dvh] w-full px-6 py-16 md:py-0 overflow-hidden relative">
+    <main className="flex items-center justify-center min-h-screen w-full px-6 py-16 md:py-0 overflow-hidden relative">
       {/* Luces decorativas sutiles en el fondo */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] h-[90vw] md:w-[40vw] md:h-[40vw] bg-primary-pink/10 rounded-full blur-[100px] pointer-events-none"></div>
 
